@@ -1,6 +1,8 @@
 <h2> A project to predict cancer with Machine Learning</h2>
 Trained and tested on three models: Random Tree, KNN, and LogisticRegression. 
 <br> 
+<h1>Run <b>python install requirements.text</b> before doing any things!</h1>
+<br>
 <h2>Data Set</h2>
 Contains 1500 lines of train data, found at https://www.kaggle.com/datasets/rabieelkharoua/cancer-prediction-dataset?resource=download 
 <br> <br> 
