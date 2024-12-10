@@ -53,7 +53,10 @@
       npm start
     </pre>
   </li>
-  <li>Open the local host at the given port (typically <i>http://localhost:5000</i>) in your web browser to interact with the front-end interface.</li>
+  <li>Open the local host at the given port (<i>http://localhost:3000</i>> for the front-end interface) in your web browser to interact with the front-end interface. </li>
+  <li>Typically <i>http://localhost:5000</i> is for hosting the backend model and you do not need to open it in a web browser.</li>
+  
+  
 </ol>
 
 <h2>Troubleshooting</h2>
@@ -61,5 +64,6 @@
 <ul>
   <li><b>Issue:</b> Errors while installing dependencies<br><b>Solution:</b> Ensure you are using the correct version of Python and that all dependencies are listed in the <i>requirements.txt</i>.</li>
   <li><b>Issue:</b> Models not training properly<br><b>Solution:</b> Check that the dataset is correctly formatted and that all feature columns are included in the training script.</li>
-  <li><b>Issue:</b> Front-end not showing up after running the app<br><b>Solution:</b> Check that both the Flask app and React server are running without errors, and verify that you are opening the correct port (usually <i>http://localhost:5000</i>).</li>
+  <li><b>Issue:</b> Front-end not showing up after running the app<br><b>Solution:</b> Check that both the Flask app and React server are running without errors, should be localhost:3000 and localhost:5000 and verify that you are opening the correct port (usually <i>http://localhost:3000</i> for the front-end).</li>
+  <li> For more questions, read the readme about React inside the directory <b>/cancer-prediction</b></li>
 </ul>
