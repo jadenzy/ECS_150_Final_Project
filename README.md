@@ -53,7 +53,7 @@
       npm start
     </pre>
   </li>
-  <li>Open the local host at the given port (<i>http://localhost:3000</i> for the front-end interface) in your web browser to interact with the front-end interface. </li>
+  <li>Open the local host at the given port (<i>usually http://localhost:3000</i> for the front-end interface) in your web browser to interact with the front-end interface. </li>
   <li>Typically <i>http://localhost:5000</i> is for hosting the backend model and you do not need to open it in a web browser.</li>
   
   
